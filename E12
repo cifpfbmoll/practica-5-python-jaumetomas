@@ -1,0 +1,11 @@
+#P5E12
+#Escribe un programa que pida un número y escriba si primo o no
+numero=int(input("Dame un numero "))
+esPrimo=True
+for i in range(numero):
+    if((i!=0)and (i!=1)and (numero%i==0)):
+        esPrimo=False
+    if (esPrimo):
+        print( "El numero" ,numero, "es primo")
+    else:
+        print ("El numero" ,numero, "no es primo")

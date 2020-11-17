@@ -1,0 +1,11 @@
+#P5E8
+#Escribe un programa que pida la anchura de un triángulo y lo dibuje de la siguiente manera:
+
+anchura=int(input("Dame la anchura del triangulo "))
+for i in range(anchura):
+    print (i*"*")
+    print (" ")
+for i in list(range(anchura,0,-1)):
+    print (i*"*")
+    print (" ")
+

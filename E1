@@ -1,0 +1,12 @@
+#P5E1
+#Escribir programa que escriba los siguientes numeros (los de la tabla), y que la función range tenga un único argumento y que el valor de este
+#se corresponda con el número de elementos que aparecen en la lista.
+
+for i in range(10):
+    print (i+1)
+for i in range(10):
+    print ((i*2)+2)
+for i in range (10):
+    print ((i*2)+20)
+for i in range (10):
+    print ((i*4)+10)
